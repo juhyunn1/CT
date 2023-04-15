@@ -3,11 +3,11 @@ s = str(n)
 
 l, r = 0, 0
 for c in s[:len(s)//2]:
-    l += int(c)
+  l += int(c)
 for c in s[len(s)//2:]:
-    r += int(c)
+  r += int(c)
 
 if l == r:
-    print("LUCKY")
+  print("LUCKY")
 else:
-    print("READY")
+  print("READY")
