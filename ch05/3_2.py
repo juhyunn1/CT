@@ -11,8 +11,7 @@ def dfs(x, y):
       if arr[nx][ny] == 0: # 0이면
         dfs(nx, ny) # 다음으로
 
-  else: # 다 돌면
-    return # 종료
+  return # 종료
 
 
 n, m = map(int, input().split())
